@@ -1,6 +1,7 @@
 function Player(props){
     return (
-        <div>
+        // user player name as class
+        <div className={props.whichPlayer}>
             <h2>Player {props.whichPlayer} </h2>
             <h3>Wins: </h3>
         </div>

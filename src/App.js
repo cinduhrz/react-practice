@@ -11,8 +11,8 @@ function App(){
     {/* for img and input tags (reg self-closing tags), you HAVE to put a self-closing slash ==> /> */}
     <Header/>
     {/* or use an opening and closing tag */}
-    <Player whichPlayer="x" ></Player>
-    <Player whichPlayer="o" />
+    <Player whichPlayer="X" ></Player>
+    <Player whichPlayer="O" />
     <Board/>
   </>)
 }

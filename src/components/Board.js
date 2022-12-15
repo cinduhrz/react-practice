@@ -2,7 +2,9 @@ import Square from "./Square"
 
 function Board(props){
     return (
-        <div>
+        // this className is also a prop
+        // jsx treats a prop called className as a class; it adds a class to the created html element
+        <div className="board" >
             <Square/>
             <Square/>
             <Square/>
@@ -10,7 +12,7 @@ function Board(props){
             <Square/>
             <Square/>
             <Square/>
-            
+
             <Square/>
             <Square/>
             <Square/>
